@@ -3,7 +3,7 @@ function printMessage(message) {
     console.log(message);
 }
 
-//함수 표현식(Function expression)
+// 함수 표현식(Function expression)
 const printWelcome = function () { // 변수에 익명함수 지정
     console.log('welcome');
 }
