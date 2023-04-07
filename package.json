@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "async": "^3.2.4",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "window": "^4.2.7"
   }
 }
