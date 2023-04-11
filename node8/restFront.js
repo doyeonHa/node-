@@ -82,3 +82,16 @@ document.getElementById('form').addEventListener('submit', (e) => {
   xhr.send(JSON.stringify({ name : name }));
   e.target.username.value = '';
 });
+
+// XMLHttpRequest
+// 웹 브라우저는 서버에 데이터를 요청하기 위한 XMLHttpRequest 객체를 내장
+// XMLHttpRequest : 서버로부터 XML  데이터를 전송받아 처리하는데 사용됨.
+// reponseText() : 서버에 요청하여 응답으로 받은 데이터를 무자열로 저장
+// open() : 요청을 취소함
+//  send() : 서버에 요청 보내기. GET 방식요청일때 사용.
+// send(string) : 서버에 요청 보냄. post 방식 요청일 때 사용.
+
+// Ajax에서는 요청을 보내기 전에 setRequestHeader() 메소드를 사용하여 HTTP 요청 헤더를 작성할 수 있습니다
+// 문법 --
+// XMLHttpRequest인스턴스 setRequestHeader(헤더이름, 헤더값);
+// 헤더이름은 HTTP 요청 헤더에 포함하고자 하는 헤더의 이름이며, 그 값도 같이 전달합니다.
